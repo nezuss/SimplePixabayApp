@@ -7,7 +7,7 @@ namespace WAS_PIXABAY.Controllers
     [Route("api/main")]
     public class MainController : ControllerBase
     {
-        private readonly string ApiKey = "39200440-6020ae19d11f06f1da5f72633";
+        private readonly string ApiKey = "";
         private readonly int MaxOnPage = 20;
         private readonly HttpClient _httpClient;
         private string url;
